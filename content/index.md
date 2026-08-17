@@ -1,83 +1,12 @@
 ---
 seo:
-  title: Using Dev - Maulana Firdaussyah
-  description: Portfolio and documentation of Using Dev - Muhammad Maulana Firdaussyah, a passionate Fullstack Web Developer specializing in React, Next.js, and AI/ML technologies.
+  title: Lanadev — Muhammad Maulana Firdaussyah
+  description: Documentation and Blog of Lanadev (Muhammad Maulana Firdaussyah), Fullstack Web Developer.
 ---
 
-::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
----
-orientation: horizontal
----
-#top
-:hero-background
 
-#title
-Hi, there is [Using Dev]{.text-primary}.
 
-#description
-I Maulana the dedicated Fullstack Web Developer and Accounting Information Systems student with a passion for building innovative, user-focused web applications and exploring AI/ML technologies. Specialized in React, Next.js, and modern web development.
-
-#links
-  :::u-button
-  ---
-  to: /getting-started
-  size: xl
-  trailing-icon: i-lucide-arrow-right
-  ---
-  About Me
-  :::
-
-  :::u-button
-  ---
-  icon: i-simple-icons-github
-  color: neutral
-  variant: outline
-  size: xl
-  to: https://github.com/maulana-tech
-  target: _blank
-  ---
-  View GitHub
-  :::
-
-#default
-  :::prose-pre
-  ---
-  code: |
-    const profile = {
-      name: 'Muhammad Maulana Firdaussyah',
-      role: 'Fullstack Web Developer',
-      location: 'Yogyakarta, Indonesia',
-      university: 'UTDI',
-      experience: '1.5+ years',
-      specialization: [
-        'React & Next.js',
-        'JavaScript & TypeScript',
-        'Tailwind CSS',
-        'AI/ML Integration'
-      ]
-    }
-  filename: profile.js
-  ---
-
-  ```js [profile.js]
-  const profile = {
-    name: 'Muhammad Maulana Firdaussyah',
-    role: 'Fullstack Web Developer',
-    location: 'Yogyakarta, Indonesia',
-    university: 'UTDI',
-    experience: '1.5+ years',
-    specialization: [
-      'React & Next.js',
-      'JavaScript & TypeScript',
-      'Tailwind CSS',
-      'AI/ML Integration'
-    ]
-  }
-  ```
-  :::
-::
-
-::u-page-section{class="dark:bg-neutral-950"}
+::u-page-section{class="bg-white dark:bg-[#0a0a0a]"}
 #title
 Technical Expertise & Skills
 
