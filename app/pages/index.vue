@@ -19,9 +19,15 @@ useSeoMeta({
 </script>
 
 <template>
-  <ContentRenderer
-    v-if="page"
-    :value="page"
-    :prose="false"
-  />
+  <div class="min-h-screen bg-white dark:bg-[#0a0a0a]">
+    <HeroSection />
+    
+    <div class="pt-16 pb-24">
+      <ContentRenderer
+        v-if="page"
+        :value="page"
+        :prose="false"
+      />
+    </div>
+  </div>
 </template>
