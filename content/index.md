@@ -72,193 +72,106 @@ Explore my technical documentation, setup guides, and thoughts on web developmen
   :::
 ::
 
-::u-page-section{class="bg-white dark:bg-[#0a0a0a]"}
+::u-page-section{class="bg-white dark:bg-[#0a0a0a] border-b border-gray-200 dark:border-gray-800"}
 #title
-Technical Expertise & Skills
+Explore by Category
 
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: lg
-  target: _blank
-  to: https://github.com/maulana-tech
-  trailingIcon: i-lucide-arrow-right
-  variant: subtle
-  ---
-  View My Projects
-  :::
+#description
+Dive into my technical resources, organized by topics to help you find exactly what you need.
 
 #features
   :::u-page-feature
   ---
-  icon: i-lucide-code
+  icon: i-lucide-play-circle
+  to: /getting-started
   ---
   #title
-  Frontend Development
-
+  Getting Started
   #description
-  Expert in React, Next.js, JavaScript, and Tailwind CSS. Building responsive, interactive user interfaces with modern frameworks and best practices.
+  Quick start guides, installation instructions, and essential concepts to kick off your projects.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-database
+  icon: i-lucide-box
+  to: /essentials
   ---
   #title
-  Backend & Database
-
+  Essentials
   #description
-  Proficient in Node.js, PHP, and SQL. Experience with Supabase for real-time data management and user authentication systems.
+  Core concepts, components, and Markdown features available in this documentation site.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-brain
+  icon: i-lucide-layout-template
+  to: /templates
   ---
   #title
-  AI/ML Integration
-
+  Templates & Boilerplates
   #description
-  Exploring artificial intelligence and machine learning technologies. Built AI-driven features in web applications like Rehearse AI.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-palette
-  ---
-  #title
-  UI/UX Design
-
-  #description
-  Creating intuitive, user-friendly interfaces with Shadcn UI and Framer Motion. Focus on accessibility and seamless user experience.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-users
-  ---
-  #title
-  Leadership & Collaboration
-
-  #description
-  Chairman of HIMASIA, leading 50+ member organization. Experience mentoring peers and coordinating cross-functional teams.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-chart-bar
-  ---
-  #title
-  Data Analysis
-
-  #description
-  Certified in Data Analysis with skills in financial accounting and system design (ERD, DFD, Flowcharts) from AIS studies.
-  :::
-::
-
-::u-page-section{class="dark:bg-neutral-950"}
-#title
-Experience & Projects
-
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: lg
-  target: _blank
-  to: https://linktr.ee/maulanafirdaussyah
-  trailingIcon: i-lucide-arrow-right
-  variant: subtle
-  ---
-  Connect with Me
-  :::
-
-#features
-  :::u-page-feature
-  ---
-  icon: i-lucide-brain
-  ---
-  #title
-  Rehearse AI Web App
-
-  #description
-  Built an AI-driven web application using React, Next.js, and Tailwind CSS. Integrated Supabase for real-time data, supporting 100+ beta testers with 20% improved latency.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-wallet
-  ---
-  #title
-  Personal Finance App
-
-  #description
-  Developed a comprehensive finance management application using PHP, SQL, HTML, and JavaScript. Improved client efficiency by 30% with intuitive dashboards.
+  Pre-configured setups for React, Next.js, and more to accelerate your development workflow.
   :::
 
   :::u-page-feature
   ---
   icon: i-lucide-book-open
+  to: /blog
   ---
   #title
-  DevEdHub Platform
-
+  Tech Blog
   #description
-  Contributed to GDSC's educational platform, implementing dynamic UI with Shadcn UI and improving accessibility by 20% for 50+ community members.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-users
-  ---
-  #title
-  GDSC Student Developer
-
-  #description
-  1.5+ years as Student Developer at Google Developer Student Club, building responsive web applications and mentoring peers in coding best practices.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-trophy
-  ---
-  #title
-  Solution Challenge 2024
-
-  #description
-  Participated in Google's Solution Challenge, building data-driven features with SQL that streamlined workflows by 15%.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-graduation-cap
-  ---
-  #title
-  Chairman of HIMASIA
-
-  #description
-  Leading 50+ member student organization at UTDI, organizing tech workshops and increasing participation by 25% through effective team coordination.
+  Articles on fullstack development, AI engineering, system architecture, and tech tutorials.
   :::
 ::
 
-::u-page-section{class="dark:bg-gradient-to-b from-neutral-950 to-neutral-900"}
+::u-page-section{class="bg-white dark:bg-[#0a0a0a] border-b border-gray-200 dark:border-gray-800"}
+#title
+Recent Articles
+#description
+Latest insights and updates from my development journey.
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-file-text
+  to: /blog
+  ---
+  #title
+  Welcome to Lanadev Blog
+  #description
+  A quick introduction to what you can expect from this knowledge base.
+  :::
+  
+  :::u-page-feature
+  ---
+  icon: i-lucide-file-text
+  to: /blog
+  ---
+  #title
+  Building a Brutalist Portfolio
+  #description
+  Insights and design decisions from building a high-performance Next.js portfolio.
+  :::
+::
+
+::u-page-section{class="bg-white dark:bg-[#0a0a0a]"}
   :::u-page-c-t-a
   ---
   links:
-    - label: Learn More About Me
-      to: '/getting-started'
+    - label: Read the Blog
+      to: '/blog'
       trailingIcon: i-lucide-arrow-right
+      color: black
     - label: View on GitHub
       to: 'https://github.com/maulana-tech'
       target: _blank
-      variant: subtle
+      variant: outline
+      color: neutral
       icon: i-simple-icons-github
-  title: Let's Build Something Amazing Together
-  description: I'm always open to collaboration and new opportunities. Whether you're looking for a developer, want to discuss tech, or just connect, feel free to reach out!
-  class: dark:bg-neutral-950
+  title: Stay Updated
+  description: Join me as I share more open-source templates, tech tutorials, and development tips.
+  class: dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800
   ---
-
-  :stars-bg
   :::
 ::
