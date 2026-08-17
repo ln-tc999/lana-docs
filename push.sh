@@ -95,13 +95,11 @@ while IFS= read -r line; do
 
 done < <(git status --short)
 
-# ── Push 
-─────────────────────────────────────────────────────────────────────
+# ── Push ─────────────────────────────────────────────────────────────────────
 echo ""
 
 # Check if there are local commits to push
-LOCAL_AHEAD=$(git rev-list --count origin/"$BRANCH".."$BRANCH" 2>/dev/null || echo 
-"0")
+LOCAL_AHEAD=$(git rev-list --count origin/"$BRANCH".."$BRANCH" 2>/dev/null || echo "0")
 
 if [ "$COUNT" -gt 0 ] || [ "$LOCAL_AHEAD" -gt 0 ]; then
     if [ "$LOCAL_AHEAD" -gt 0 ]; then
