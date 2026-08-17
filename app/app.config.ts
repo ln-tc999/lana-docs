@@ -1,8 +1,13 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'green',
-      neutral: 'slate'
+      primary: 'zinc',
+      neutral: 'zinc'
+    },
+    button: {
+      defaultVariants: {
+        color: 'neutral',
+      }
     },
     footer: {
       slots: {
@@ -12,7 +17,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Using Dev'
+    siteName: 'Lanadev'
   },
   header: {
     title: '',
@@ -36,7 +41,7 @@ export default defineAppConfig({
     }]
   },
   footer: {
-    credits: `Built with Using Dev • © ${new Date().getFullYear()} Using Dev`,
+    credits: `Built by Lanadev • © ${new Date().getFullYear()} Muhammad Maulana Firdaussyah`,
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-linkedin',
