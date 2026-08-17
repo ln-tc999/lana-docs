@@ -6,6 +6,72 @@ seo:
 
 
 
+::u-page-hero{class="bg-white dark:bg-[#0a0a0a] border-b border-gray-200 dark:border-gray-800"}
+---
+orientation: horizontal
+---
+#top
+:hero-background
+
+#title
+Lanadev [Knowledge Base]{.text-zinc-500} & Blog
+
+#description
+Explore my technical documentation, setup guides, and thoughts on web development. Built with Nuxt, tailored for speed and simplicity.
+
+#links
+  :::u-button
+  ---
+  to: /getting-started
+  size: xl
+  trailing-icon: i-lucide-arrow-right
+  color: black
+  ---
+  Explore Docs
+  :::
+
+  :::u-button
+  ---
+  icon: i-lucide-book-open
+  color: neutral
+  variant: outline
+  size: xl
+  to: /blog
+  ---
+  Read the Blog
+  :::
+
+#default
+  :::prose-pre
+  ---
+  code: |
+    # Initialize a new project
+    npx nuxi@latest init my-project
+    cd my-project
+
+    # Install dependencies
+    pnpm install
+
+    # Start development server
+    pnpm dev
+  filename: terminal
+  icon: i-lucide-terminal
+  ---
+
+  ```bash [terminal]
+  # Initialize a new project
+  npx nuxi@latest init my-project
+  cd my-project
+
+  # Install dependencies
+  pnpm install
+
+  # Start development server
+  pnpm dev
+  ```
+  :::
+::
+
 ::u-page-section{class="bg-white dark:bg-[#0a0a0a]"}
 #title
 Technical Expertise & Skills
